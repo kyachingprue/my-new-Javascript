@@ -191,14 +191,15 @@ body{
   width: 80%;
   height: 1393px;
   margin: 0 auto;
+  margin-top: 2rem;
   background-color: aliceblue;
 }
 .main-content-container{
   width: 80%;
-  height: 1233px;
+  height: 1300px;
   margin: 0 auto;
   background-color: skyblue;
-  margin-top: 4rem;
+
 }
 /* banner style starts */
 .main-content-banner-property{
@@ -265,7 +266,7 @@ body{
 .development-btn-primary{
   width: 50%;
   height: 47px;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .development-btn-primary button{
   padding: .75rem 1.25rem .75rem 1.25rem;
@@ -336,7 +337,7 @@ body{
 .modern-btn-primary{
   width: 50%;
   height: 47px;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .modern-btn-primary button{
   padding: .75rem 1.25rem .75rem 1.25rem;
@@ -391,7 +392,7 @@ body{
 .system-btn-primary{
   width: 50%;
   height: 55px;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .system-btn-primary button{
   padding: .75rem 1.25rem .75rem 1.25rem;
@@ -405,12 +406,22 @@ body{
   color: white;
   text-decoration: none;
 }
+.system-image-property{
+  width: 30%;
+  height: 240px;
+}
+.system-image-property img{
+  width: 100%;
+  height: 100%;
+}
 /* Development-3 style ends */
 
 /* Responsive media styles */
  @media screen and (max-width: 576px) {
   .header-content-container,
-  .development-content-container{
+  .development-content-container,
+  .modern-content-container,
+  .system-content-container{
     flex-direction: column;
   }
   .nav-title{
@@ -474,7 +485,7 @@ body{
     width: 70%;
     height: 80px;
     padding: 0.4rem 1rem 04rem 1rem;
-    margin-top: 1rem;
+    margin-top: .8rem;
   }
   .btn-primary a{
     font-weight: 900;
@@ -484,19 +495,19 @@ body{
   /* Main styles starts */
   .main-container{
     width: 80%;
-    height: 1700px;
+    height: 2030px;
     margin: 0 auto;
-    border: 2px solid black;
+    margin-top: 2rem;
   }
   .main-content-container{
     width: 80%;
-    height: 1600px;
-    border: 2px solid green;
+    height: 1950px;
+    margin: 0 auto;
+    margin-top: 2.5rem;
   }
   .main-content-banner-property{
   width: 80%;
   height: 350px;
-  border: 2px solid white;
  }
 .banner-title{
   width: 100%;
@@ -518,13 +529,13 @@ body{
 /* Development 1 style starts */
 .main-content-development-1{
   width: 100%;
-  height: 500px;
-  border: 2px solid green;
+  height: 460px;
+  margin: 0 auto;
+  margin-top: 2rem;
 }
 .development-content-container{
   width: 100%;
   height: 450px;
-  border: 2px solid white;
   margin: 0 auto;
 }
 .development-banner-property{
@@ -534,7 +545,6 @@ body{
 .development-banner-title{
   width: 100%;
   height: 50px;
-  border: 2px solid aqua;
 }
 .development-banner-title h4{
   font-weight: 800;
@@ -543,7 +553,6 @@ body{
 .development-banner-description{
   width: 100%;
   height: 100px;
-  border: 2px solid green;
 }
 .development-banner-description p{
   font-weight: 400;
@@ -552,7 +561,6 @@ body{
 .development-btn-primary{
   width: 50%;
   height: 47px;
-  margin-top: 1rem;
 }
 .development-btn-primary button{
   padding: .5rem 1rem .5rem 1rem;
@@ -562,12 +570,102 @@ body{
 .development-image-property{
   width: 80%;
   height: 190px;
-  border: 2px solid red;
 }
-
-
-
-
-
+/* Development 1 style ends */
+/* Development 2 style starts */
+.main-content-development-2{
+  width: 100%;
+  height: 520px;
+  margin: 0 auto;
+}
+.modern-image-property{
+  width: 90%;
+  height: 240px;
+  margin: 0 auto;
+  margin-top: -2rem;
+}
+.modern-banner-property{
+  width: 90%;
+  height: 240px;
+  margin-top: 1rem;
+}
+.modern-banner-title{
+  width: 100%;
+  height: 66px;
+}
+.modern-banner-title h4{
+  font-weight: 900;
+  font-size: 1rem;
+}
+.modern-banner-description{
+  width: 100%;
+  height: 100px;
+  margin-top: .8rem;
+}
+.modern-banner-description p{
+  font-weight: 400;
+  font-size: .8rem;
+}
+.modern-btn-primary{
+  width: 50%;
+  height: 47px;
+}
+.modern-btn-primary button{
+  padding: .5rem 1rem .5rem 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+/* Development 2 style ends */
+/* Development 3 style starts */
+.main-content-development-3{
+  width: 100%;
+  height: 540px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.system-content-container{
+  width: 80%;
+  height: 520px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.system-content-banner-property{
+  width: 100%;
+  height: 240px;
+}
+.system-banner-title{
+  width: 100%;
+  height: 50px;
+}
+.system-banner-title h4{
+  font-weight: 600;
+  font-size: 1rem;
+}
+.system-banner-description{
+  width: 100%;
+  height: 112px;
+}
+.system-banner-description p{
+  font-weight: 400;
+  font-size: .8rem;
+}
+.system-btn-primary{
+  width: 60%;
+  height: 47px;
+}
+.system-btn-primary button{
+  padding: .5rem 1rem .5rem 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.system-image-property{
+  width: 90%;
+  height: -200px;
+}
+.system-image-property img{
+  width: 100%;
+  height: 100%;
+}
+/* Development 3 style ends */
 
 }
