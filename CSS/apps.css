@@ -10,14 +10,13 @@
 }
 body{
   font-family: "Inter", sans-serif;
+  background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 /* Navigation style starts */
 .nav-container{
   width: 100%;
   height: 130px;
   margin: 0 auto;
-  border: 2px solid ivory;
-  background-color: ivory;
 }
 .nav-content-container{
   width: 80%;
@@ -40,14 +39,14 @@ body{
   width: 80px;
   height: 55px;
   margin-top: 6px;
-  filter:drop-shadow(10px 8px 20px blueviolet);
+  filter:drop-shadow(10px 8px 20px blue);
 }
 .icon-logo i{
   font-size: 43px;
   margin-left: 10px;
 }
 .icon-logo a{
-  color: black;
+  color: white;
 }
 .nav-title{
   width: 470px;
@@ -88,13 +87,6 @@ body{
   max-width: 100%;
   height: 650px;
   margin: 0 auto;
-  background-image: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.5)),
-   url("../IMAGE/website.webp");
-   border: 1px solid aliceblue;
- 
 }
 .header-content-container{
   width: 80%;
@@ -184,22 +176,20 @@ body{
 /* Header style ends */
 /* Main style starts */
 .main-section{
-  background-color: ivory;
   font-family: "Azeret Mono", monospace; 
 }
 .main-container{
-  width: 80%;
-  height: 1393px;
+  max-width: 80%;
+  height: 1400px;
   margin: 0 auto;
-  margin-top: 2rem;
-  background-color: aliceblue;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 .main-content-container{
   width: 80%;
   height: 1300px;
   margin: 0 auto;
-  background-color: skyblue;
-
+  margin-top: 2rem;
+  background-color: #92b3c0;
 }
 /* banner style starts */
 .main-content-banner-property{
